@@ -12,5 +12,6 @@ resource "aws_instance" "test" {
 
   tags = {
     Name = var.instance_name
+    Environment = var.instance_environment
   }
 }
