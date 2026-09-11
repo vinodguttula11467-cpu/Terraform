@@ -29,6 +29,10 @@ variable "instance_name" {
   description = "Name tag for the EC2 instance"
   type        = string
   default     = "Terraform-Managed-EC2"
+variable "instance_environment" {
+  description = "Name tag for the EC2 envornment"
+  type        = string
+  default     = "dev"
 }
 variable "key_name" {
   description = "Key pair name for the EC2 instance"
