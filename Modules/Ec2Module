@@ -2,8 +2,8 @@ provider "aws" {
   # Configuration options
 }
 module "aws_instance" {
-  source = "./modules/aws_instance"
-  ami_id = "ami-0b6d9d3d33ba97d99"
+  source = "./modules/aws_instance" # Source can be in any location that details needs to pass here
+  ami_id = "ami-0b6d9d3d33ba97d99" # here we need to define resource input variables based on requirement
   count = 2
   instance_type = t3.micro
   key_name = var.key_name
