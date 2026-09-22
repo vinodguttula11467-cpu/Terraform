@@ -1,7 +1,7 @@
 Terraform modules are reusable and it contains collection of Terraform configuration files.
 A module generally consists of input variables, resources, and outputs, allowing the same infrastructure configuration to be reused with different values.
 
-Example structure:
+**Example structure:
 
 terraform-project/
 │
@@ -19,4 +19,4 @@ terraform-project/
         ├── main.tf
         ├── variables.tf
         ├── outputs.tf
-        └── README.md
+        └── README.md**
